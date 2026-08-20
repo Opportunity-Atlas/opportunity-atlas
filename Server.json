@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.opportunity-atlas/opportunity-atlas",
+  "title": "Opportunity Atlas",
+  "description": "Construction opportunity intelligence for AI agents, providing structured project discovery and previews for Northeast Ohio contractors and service providers.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zmxwkvmxcfjgwbrtxxhl.supabase.co/functions/v1/scout-mcp"
+    }
+  ]
+}
